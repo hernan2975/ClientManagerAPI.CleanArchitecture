@@ -1,0 +1,4 @@
+*.cs text diff=csharp
+*.json text
+*.yml text
+*.sh text eol=lf
