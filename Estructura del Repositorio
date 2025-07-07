@@ -1,0 +1,15 @@
+ClientManagerAPI/
+├── src/
+│   ├── ClientManagerAPI.Presentation/     # WebAPI, Controllers, Middlewares, JWT, Swagger
+│   ├── ClientManagerAPI.Application/      # Casos de Uso, Interfaces, DTOs, Servicios
+│   ├── ClientManagerAPI.Domain/           # Entidades, ValueObjects, Reglas de Dominio
+│   └── ClientManagerAPI.Infrastructure/   # EF Core, Repositorios, Configuración de DB
+├── tests/
+│   └── ClientManagerAPI.Tests/            # Unit tests con xUnit, FluentAssertions, Moq
+├── .editorconfig
+├── .gitignore
+├── .gitattributes
+├── LICENSE
+├── README.md
+└── ClientManagerAPI.sln
+
